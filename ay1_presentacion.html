@@ -301,13 +301,15 @@ print("¡Hola desde Vicuña 20!")
 sqrt(144)
 log(100)
 
-# Crear un objeto
-caja &lt;- "gatos" 
-caja
+# Objetos y variables
+puntaje &lt;- 85
+nombre  &lt;- "Ana"
 
-a &lt;- 4
-a
-a * 5
+puntaje
+nombre
+
+puntaje + 10
+puntaje * 2
 ```
 
 El símbolo `&lt;-` es el operador de asignación en R. Atajo: `Alt + -`
@@ -329,11 +331,10 @@ Guarda el archivo `casen_ay1.csv` en tu carpeta `input` y luego:
 
 ``` r
 # Instalar paquete (SOLO UNA VEZ)
-#install.packages("tidyverse")
+install.packages("readr")
 
 # Cargar paquete (SIEMPRE)
-library(tidyverse)
-
+library(readr)
 
 # Cargar la base
 
