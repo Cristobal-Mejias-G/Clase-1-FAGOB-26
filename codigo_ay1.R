@@ -36,11 +36,11 @@ library(readr)
 
 # PARTE 4: CARGAR LA BASE DE DATOS ----
 
-# Opción A: cargar directo desde GitHub (sin descargar)
-casen <- read_csv("https://raw.githubusercontent.com/Cristobal-Mejias-G/Clase-1-FAGOB-26/main/input/casen_ay1.csv")
+# Opción A: si descargaste el archivo, cárgalo desde tu carpeta input/
+casen <- read_csv("input/casen_ay1.csv")
 
-# Opción B: si descargaste el archivo, cárgalo desde tu carpeta input/
-# casen <- read_csv("input/casen_ay1.csv")
+# Opción B: cargar directo desde GitHub (sin descargar)
+#casen <- read_csv("https://raw.githubusercontent.com/Cristobal-Mejias-G/Clase-1-FAGOB-26/main/input/casen_ay1.csv")
 
 
 # PARTE 5: EXPLORAR LA BASE ----
